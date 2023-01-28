@@ -37,3 +37,12 @@ body{
   background-color: var(--color-bg);
   color: var(--color-fg);
 }
+
+.img-link{
+    overflow: hidden;
+}
+
+.card-img-top:hover{
+    transform: scale(1.15);
+    transition: all 0.5s ease;
+}

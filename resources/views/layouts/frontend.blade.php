@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-icons/bootstrap-icons.css">
     <link rel="stylesheet" href="/css/prism.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/style.css?v={{time()}}">
     <link rel="stylesheet" type="text/css" href="/css/aos.css">
     <link rel="icon" href="/icon.png">
 </head>
