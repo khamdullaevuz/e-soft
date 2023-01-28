@@ -13,7 +13,7 @@
   @forelse($posts as $post)
   <div class="col">
     <div class="card shadow-sm" data-aos="zoom-in" data-aos-duration="1000">
-      <a href="{{ url('/'.$post->url) }}" class="text-decoration-none img-link"><img src="/uploads/{{ $post->photo }}" class="card-img-top" alt="{{ $post->title }}"></a>
+      <a href="{{ url('/'.$post->url) }}" class="text-decoration-none img-link"><img src="/uploads/{{ $post->photo }}" class="card-img-top content-image" alt="{{ $post->title }}"></a>
       <div class="card-body">
         <a href="{{ url('/'.$post->url) }}" class="text-decoration-none">
           <h5 class="card-title">{{ $post->title }}</h5>
