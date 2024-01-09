@@ -100,7 +100,7 @@
         </section>
       </div>
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        Copyright © {{ date('Y') }}
+        Copyright © 2020-{{ date('Y') }}
         <a class="text-white text-decoration-none" href="https://khamdullaev.uz/">Elbek Khamdullaev</a>
       </div>
     </footer>
