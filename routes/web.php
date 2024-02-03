@@ -20,7 +20,7 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::domain('{account}.e-soft.uz', function($account){
+Route::domain('{account}.e-soft.uz')->group(function($account){
     return $account;
 });
 
