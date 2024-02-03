@@ -20,6 +20,10 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
+Route::domain('{account}.e-soft.uz', function($account){
+    return $account;
+});
+
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/about', [HomeController::class, 'about']);
 Route::get('/category/{uri}', [CategoriesController::class, 'show']);
