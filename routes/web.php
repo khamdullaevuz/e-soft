@@ -20,8 +20,10 @@ use Illuminate\Support\Facades\Auth;
 |
 */
 
-Route::domain('{account}.e-soft.uz')->group(function($account){
-    return $account;
+Route::domain('{account}.e-soft.uz')->group(function () {
+    Route::get('/', function (string $account) {
+        return $account;
+    });
 });
 
 Route::get('/', [HomeController::class, 'index']);
